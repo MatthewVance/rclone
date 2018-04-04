@@ -110,7 +110,7 @@ destination remote must point to a directory - rclone will give the
 error `Failed to create file system for "remote:file": is a file not a
 directory` if it isn't.
 
-For example, suppose you have a remote with a file in called
+For example, suppose you have a remote with a file called
 `test.jpg`, then you could copy just that file like this
 
     rclone copy remote:test.jpg /tmp/download
